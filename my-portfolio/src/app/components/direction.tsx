@@ -57,14 +57,14 @@ export function DirectionAwareHoverDemo() {
                 </a>
 
                 {/* Live Demo Link */}
-                <a
+                {/* <a
                   href={project.externallink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-white/20 backdrop-blur-sm hover:bg-white/30 transition"
                 >
                   <ExternalLink className="w-5 h-5 text-white" />
-                </a>
+                </a> */}
               </div>
             </DirectionAwareHover>
 
