@@ -6,10 +6,24 @@ export function TimelineDemo() {
     {
       title: "Feb 2025 - May 2025",
       content: (
-        <div>
-          <p className="mb-8 text-xs font-normal text-white md:text-xl dark:text-neutral-200">
-            Worked as Frontend and UI intern 
-          </p>
+       <div>
+         <div className="mb-8 text-md font-normal text-white md:text-sm dark:text-neutral-200">
+  <span className="text-2xl"> Worked as Frontend and UI intern</span>
+          <ul className="list-disc pl-6 mt-2 space-y-1 text-white">
+            <li>
+              Developed responsive frontend components for Ventoro using
+              React.js and TailwindCSS.
+            </li>
+            <li>
+              Enhanced user experience by implementing clean UI workflows and
+              reusable layouts.
+            </li>
+            <li>
+              Collaborated on feature development and debugging in an agile team
+              environment at Arybhata Tech.
+            </li>
+          </ul>
+              </div>
           <div className="grid grid-cols-2 gap-4">
             <img
               src="/assets/ventoro.jpeg"
@@ -26,7 +40,7 @@ export function TimelineDemo() {
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
             />
           </div>
-        </div>
+       </div>
       ),
     },
     {
@@ -34,7 +48,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="mb-8 text-xs font-normal text-white md:text-xl dark:text-neutral-200">
-          Organized Sprinthacks 3.0
+            Organized Sprinthacks 3.0
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
@@ -59,45 +73,43 @@ export function TimelineDemo() {
       title: "Nov 2024",
       content: (
         <div>
-  <p className="mb-8 text-xs font-normal text-white md:text-xl dark:text-neutral-200">
-    Freelanced Catalogues for a Startup
-  </p>
+          <p className="mb-8 text-xs font-normal text-white md:text-xl dark:text-neutral-200">
+            Freelanced Catalogues for a Startup
+          </p>
 
-  <div className="grid grid-cols-2 grid-rows-2 gap-4">
-    {/* Image 1 */}
-    <img
-      src="/assets/Jewellery.png"
-      alt="hero template"
-      className="h-20 w-full rounded-lg object-cover shadow md:h-44 lg:h-70"
-    />
+          <div className="grid grid-cols-2 grid-rows-2 gap-4">
+            {/* Image 1 */}
+            <img
+              src="/assets/Jewellery.png"
+              alt="hero template"
+              className="h-20 w-full rounded-lg object-cover shadow md:h-44 lg:h-70"
+            />
 
-    {/* Tall Image - Span 2 rows */}
-    <img
-      src="/assets/Skin.png"
-      alt="feature template"
-      className="row-span-2 h-full w-full rounded-lg object-cover shadow md:h-full lg:h-full"
-    />
+            {/* Tall Image - Span 2 rows */}
+            <img
+              src="/assets/Skin.png"
+              alt="feature template"
+              className="row-span-2 h-full w-full rounded-lg object-cover shadow md:h-full lg:h-full"
+            />
 
-    {/* Image 3 */}
-    <img
-      src="/assets/bags.png"
-      alt="feature template"
-      className="h-20 w-full rounded-lg object-cover shadow md:h-44 lg:h-70"
-    />
-  </div>
-</div>
-
+            {/* Image 3 */}
+            <img
+              src="/assets/bags.png"
+              alt="feature template"
+              className="h-20 w-full rounded-lg object-cover shadow md:h-44 lg:h-70"
+            />
+          </div>
+        </div>
       ),
     },
-     {
+    {
       title: " Aug 2024 - Present",
       content: (
         <div>
           <p className="mb-8 text-xs font-normal text-white md:text-xl dark:text-neutral-200">
             Event Coordinator GDG KIET
           </p>
-          <div className="grid grid-cols-2 gap-4">
-          </div>
+          <div className="grid grid-cols-2 gap-4"></div>
         </div>
       ),
     },
