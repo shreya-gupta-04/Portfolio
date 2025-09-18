@@ -16,7 +16,7 @@ export default function Home() {
     <div className="min-h-screen bg-black">
       <StarsBackground/> 
       <ShootingStarsAndStarsBackgroundDemo/>   
-  <Floating/>     
+  {/* <Floating/>      */}
   <NavbarDemo />              
   <Hero/>
   <Aboutme/>

@@ -13,7 +13,7 @@ export default function SkillsPage() {
       {/* Floating background elements */}
       <StarsBackground/>
       <ShootingStarsAndStarsBackgroundDemo/>
-      <Floating />
+      {/* <Floating /> */}
       {/* Main content with navbar */}
       <div className="relative z-10">
         <NavbarDemo />

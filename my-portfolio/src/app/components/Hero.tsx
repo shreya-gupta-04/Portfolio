@@ -101,7 +101,7 @@ export default function Hero() {
 
       {/* Animated robot */}
       <div className="absolute bottom-0 right-0 w-96 h-96">
-        <RoboAnimation />
+        {/* <RoboAnimation /> */}
       </div>
     </div>
   );

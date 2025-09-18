@@ -13,7 +13,7 @@ export default function SkillsPage() {
     <div className="relative min-h-screen bg-black text-white overflow-hidden">
       <StarsBackground/>
       <ShootingStarsAndStarsBackgroundDemo/>
-      <Floating />
+      {/* <Floating /> */}
       <div className="relative z-10">
         <NavbarDemo />
         <div className="flex items-center justify-center pt-20">

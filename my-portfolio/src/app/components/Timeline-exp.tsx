@@ -80,14 +80,14 @@ export function TimelineDemo() {
           <div className="grid grid-cols-2 grid-rows-2 gap-4">
             {/* Image 1 */}
             <img
-              src="/assets/Jewellery.png"
+              src="/assets/jewellery.png"
               alt="hero template"
               className="h-20 w-full rounded-lg object-cover shadow md:h-44 lg:h-70"
             />
 
             {/* Tall Image - Span 2 rows */}
             <img
-              src="/assets/Skin.png"
+              src="/assets/skin.png"
               alt="feature template"
               className="row-span-2 h-full w-full rounded-lg object-cover shadow md:h-full lg:h-full"
             />
